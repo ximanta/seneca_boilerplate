@@ -1,0 +1,16 @@
+version: "2"
+services:
+  SenecaMicroService:
+    build: .
+    image: SenecaMicroService
+    ports:
+      - 3000:3000
+    links:
+      - mongo
+    environment:
+      MONGO_URL: mongodb://mongo/moviedb
+      PORT: 8080
+  mongo:
+    image: mongo
+    expose:
+      - 27017
