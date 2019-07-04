@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - seneca > use-plugin > norma > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - wascally > postal > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > eraro > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > seneca-transport > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > patrun > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > norma > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > gex > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > seneca-transport > eraro > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - mongoose > async > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > seneca-transport > gex > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > seneca-transport > patrun > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > patrun > gex > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > use-plugin > eraro > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - wascally > whistlepunk > postal > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > norma > eraro > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > use-plugin > norma > eraro > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
+    - seneca > seneca-transport > patrun > gex > lodash:
+        patched: '2019-07-04T04:28:48.395Z'
