@@ -16,7 +16,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "express": "^4.15.2",
-    "mongoose": "^4.9.0",
+    "mongoose": "^5.3.9",
     "seneca": "^3.3.0"
   }
 }
