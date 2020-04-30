@@ -4,7 +4,9 @@
   "description": "Seneca Microservice for User Addition to Mongo",
   "main": "user-microservice.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "seneca",
@@ -17,6 +19,8 @@
   "dependencies": {
     "express": "^4.15.2",
     "mongoose": "^4.9.0",
-    "seneca": "^3.3.0"
-  }
+    "seneca": "^3.3.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
